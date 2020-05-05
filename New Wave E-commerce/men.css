@@ -1,0 +1,1653 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* container */
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+/* top-section */
+
+.top-section{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+
+/* hamburger menu */
+
+.logo-container ion-icon{
+    display: none;
+}
+
+
+/* mobile-menu */
+
+.mobile-menu{
+    display: none;
+}
+
+/* logo-container */
+
+.logo-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* navbar */ 
+
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+   
+}
+
+/* drop-down */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    padding: 12px 16px;
+    text-align: center;
+    position: relative;
+    right: 30%;
+}
+
+
+.dropdown-content a:hover{
+    font-weight: 900;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    
+}
+
+
+/* search */
+
+input{
+    margin-left: 45px;
+    font-size: 15px;
+    width: 50%;
+    height: 3vh;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+/* sign-in */
+
+.sign-in a{
+    color: black;
+}
+
+.sign-in a ion-icon{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+/* navbar right */
+
+.navbar-right{
+    display: flex;
+}
+
+.navbar-right ion-icon{
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* shopping cart */
+
+
+.shopping-cart a ion-icon{
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+}
+
+
+/* mid-section */
+
+.mid-section{
+    margin-top: 5%;
+}
+
+
+/* banner section */
+
+.banner-section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-section .image{
+    background: url('https://images.unsplash.com/photo-1471119017026-179f1bb0a70e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    background-position: center center;
+    width: 1250px;
+    height: 400px;
+    margin: 0 auto;
+    filter: opacity(95%);
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+
+}
+
+
+.banner-section .image h4{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 90px;
+    cursor: pointer;
+}
+
+/* men-product */
+
+
+
+.men .men-text{
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.men-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.men-product .product1 .image1{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/54809132_020_d?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product1 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product1 .image1:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/54809132_020_h?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.men-product .product2 .image2{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55509376_001_b?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product2 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product2 .image2:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55509376_001_d?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.men-product .product3 .image3{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/45996170_001_b?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product3 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product3 .image3:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/45996170_001_f?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.men-product .product4 .image4{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/53741732_001_b?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product4 h5{
+    margin-bottom: 10%;
+}
+
+.men-product .product4 .image4:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/53741732_001_d?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.men-product .product5 .image5{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55231534_012_d?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product5 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product5 .image5:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55231534_012_e?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.men-product .product6 .image6{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/54831839_007_d?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product6 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product6 .image6:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/54831839_007_e?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.men-product .product7 .image7{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/42823385_010_f?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product7 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product7 .image7:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/42823385_010_h?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.men-product .product8 .image8{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/53559647_012_1?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.men-product .product8 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product8 .image8:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/53559647_012_2?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.men-product .product9 .image9{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/43681741_105_d?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product9 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product9 .image9:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/43681741_105_b?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.men-product .product10 .image10{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55682512_050_b?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.men-product .product10 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product10 .image10:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55682512_050_e?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.men-product .product11 .image11{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55794796_042_b?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product11 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product11 .image11:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55794796_042_d?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.men-product .product12 .image12{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/56404163_010_m?$redesign-zoom-5x$&');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.men-product .product12 h5{
+    margin-bottom: 10%;
+}
+
+
+.men-product .product12 .image12:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/56404163_010_m3?$xlarge$&hei=600&qlt=80&fit=constrain&fmt=webp');
+    width: 250px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* add to cart section */
+
+.add-to-cart{
+    margin-bottom: 50px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: all .4s ease-in-out;
+}
+
+.add-to-cart:hover{
+    margin-bottom: 50px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 5px;
+    opacity: .5;
+}
+
+/* footer-section */
+
+.footer-container{
+    background-color: #cccccc;
+    width: 1800px;
+    height: 30vh;
+
+}
+
+
+.email-section{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.email-section h4{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.email-section p{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.email-input{
+    margin-top: 5%;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 15px;
+    width: 30%;
+    height: 3vh;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+button{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* social-media */
+
+.social-media ion-icon{
+    cursor: pointer;
+}
+
+/* links-section */
+
+.links-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.links-section a{
+    color: black;
+}
+
+/* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+
+/* media queries */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+    .mobile-menu a:hover{
+        background-color: red;
+    }
+
+
+
+    .logo-container a{
+        display: none;
+    }
+
+      .navbar a{
+          display: none;
+      }
+
+       #navbar-search{
+          display: none;
+      }
+
+      .navbar-right ion-icon{
+          display: none;
+      }
+
+      .navbar-right input{
+          display: none;
+      }
+
+      .shopping-cart ion-icon{
+          display: none;
+      }
+
+      .logo-container ion-icon{
+        display: inline-block;
+        font-size: 50px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .men-product{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        
+    }
+
+    .popular-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .exclusive-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .about-section p{
+        width: 45%;
+        line-height: 25px;
+    }
+
+    .footer-container{
+        display: inline-block;
+        height: 90vh;
+        
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .links-section h5{
+        padding: 10px;
+        
+    }
+
+    .extras-section h5{
+        padding: 10px;
+    }
+
+    .quick-links h5{
+        padding: 10px;
+    }
+
+
+}
+
+/* iPhone 6, 6S, 7 and 8 Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        top: 20%;
+        position: absolute;
+        width: 77%;
+        height: 108vh;
+        transform: translate3d(0px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    background: #F3F2F5;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-350px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10%;
+        text-align: center;
+
+    }
+
+
+    .email-input input{
+        margin-top: 5%;
+    }
+
+    .email-input{
+        text-align: center;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .footer-container{
+        width: 1350px;
+        height: 140vh;
+    }
+
+    .email-text{
+        margin-top: 5%;
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* help-text */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* find-a-store-text */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+}
+
+/* iPhone 6, 6S, 7 and 8 Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        z-index: 10;
+        top: 35%;
+        position: absolute;
+        width: 50%;
+        height: 200vh;
+        transform: translate3d(0px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    background: #F3F2F5;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-550px, 0, 0);
+    }
+
+    .mobile-menu a{
+        font-size: 35px;
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 45px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 10%;
+
+    }
+
+
+    .email-input input{
+        margin-top: 5%;
+    }
+
+    .email-input{
+        text-align: center;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .footer-container{
+        width: 1350px;
+        height: 245vh;
+    }
+
+    .email-text{
+        margin-top: 5%;
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* help-text */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* find-a-store-text */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+    .mobile-menu a:hover{
+        background-color: red;
+    }
+
+
+
+    .logo-container a{
+        display: none;
+    }
+
+      .navbar a{
+          display: none;
+      }
+
+       #navbar-search{
+          display: none;
+      }
+
+      .navbar-right ion-icon{
+          display: none;
+      }
+
+      .navbar-right input{
+        display: none;
+    }
+
+      .shopping-cart ion-icon{
+          display: none;
+      }
+
+      .logo-container ion-icon{
+        display: inline-block;
+        font-size: 50px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .men-product{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 135vh;
+        width: 1350px;
+        
+    }
+
+    .email-input input{
+        margin-top: 3%;
+        height: 5vh;
+    }
+
+    .email-text{
+        text-align: center;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+
+    }
+
+    .links-section h5{
+        padding: 10px;
+        width: 5%;
+        margin-bottom: 10px;
+        
+    }
+
+    .social-media h5{
+        position: relative;
+        left: 47.5%;
+    }
+
+    .extras-section h5{
+        padding: 10px;
+    }
+
+    .quick-links h5{
+        padding: 10px;
+    }
+
+}
+
+/* iPhone 6+, 7+ and 8+ Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        top: 20%;
+        position: absolute;
+        width: 70%;
+        height: 115vh;
+        transform: translate3d(0px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    background: #F3F2F5;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-550px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 45px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 10%;
+        text-align: center;
+
+    }
+
+}
+
+/* iPhone 6+, 7+ and 8+ Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        top: 35%;
+        position: absolute;
+        width: 50%;
+        height: 155vh;
+        transform: translate3d(0px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    background: #F3F2F5;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-550px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    .mobile-menu a{
+        font-size: 30px;
+    }
+
+    .footer-container{
+        width: 365%;
+        height: 113vh;
+    }
+
+    .email-text{
+        margin-top: 5%;
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.links-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/*  iPhone X Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        top: 20%;
+        position: absolute;
+        width: 70%;
+        height: 105vh;
+        transform: translate3d(0px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    background: #F3F2F5;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-550px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 45px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 10%;
+        text-align: center;
+
+    }
+
+    .footer-container{
+        display: inline-block;
+        height: 125vh;
+        
+    }
+
+    .email-section p{
+        margin-bottom: 25px;
+    }
+
+    .email-input input{
+        margin-top: 10%;
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.links-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.links-section h5{
+    margin-bottom: 10px;
+}
+
+/* help text */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* find-store-text */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+}
+
+/* iPhone X Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        top: 40%;
+        position: absolute;
+        width: 60%;
+        height: 195vh;
+        transform: translate3d(0px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    background: #F3F2F5;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-550px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 40px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+    .mobile-menu a:hover{
+        background-color: red;
+    }
+
+
+
+    .logo-container a{
+        display: none;
+    }
+
+      .navbar a{
+          display: none;
+      }
+
+       #navbar-search{
+          display: none;
+      }
+
+      .navbar-right ion-icon{
+          display: none;
+      }
+
+      .navbar-right input{
+        display: none;
+    }
+
+      .shopping-cart ion-icon{
+          display: none;
+      }
+
+      .logo-container ion-icon{
+        display: inline-block;
+        font-size: 50px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .men-product{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .email-input input{
+        margin-top: 3%;
+        width: 10%;
+        margin: 0 auto;
+        height: 5vh;
+    }
+
+    .email-input{
+        text-align: center;
+    }
+
+    .email-section p{
+        margin-bottom: 20px;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .footer-container{
+        width: 365%;
+        height: 320vh;
+    }
+
+    .email-text{
+        position: relative;
+        top: 40%;
+        width: 40%;
+        margin: 0 auto;
+
+
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.links-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}

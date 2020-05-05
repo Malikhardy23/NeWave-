@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* container */
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+/* top-section */
+
+.top-section{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+/* logo-container */
+
+.logo-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* navbar */ 
+
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+   
+}
+
+/* drop-down */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    padding: 12px 16px;
+    text-align: center;
+    position: relative;
+    right: 30%;
+}
+
+
+.dropdown-content a:hover{
+    font-weight: 900;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    
+}
+
+
+/* search */
+
+input{
+    margin-left: 45px;
+    font-size: 15px;
+    width: 50%;
+    height: 3vh;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+/* sign-in */
+
+.sign-in a{
+    color: black;
+}
+
+.sign-in a ion-icon{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+/* navbar right */
+
+.navbar-right{
+    display: flex;
+}
+
+.navbar-right ion-icon{
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* shopping cart */
+
+
+.shopping-cart a ion-icon{
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+}
+
+
+/* mid-section */
+
+.mid-section{
+    margin-top: 5%;
+}
+
+
+/* banner section */
+
+.banner-section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-section .image{
+    background: url('https://images.unsplash.com/photo-1518235506717-e1ed3306a89b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80');
+    background-size: cover;
+    background-position: top center;
+    width: 1250px;
+    height: 400px;
+    margin: 0 auto;
+    filter: opacity(95%);
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+
+}
+
+
+.banner-section .image h4{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 90px;
+    cursor: pointer;
+}
+
+/* outer-square */
+
+.outer-square{
+    text-align: center;
+    border: 5px solid black;
+    background-color: #c6c5c5;
+    width: 30vh;
+    height: 30vh;
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 50px;
+}
+
+/* sign-in */
+
+.signIn{
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    width: 20%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+
+/* user-info */
+
+.user-info{
+    display: grid;
+   grid-template-columns: 1fr;
+   margin-left: 30%;
+   margin-top: 3%;
+   text-align: center;
+}
+
+
+
+/* footer-section */
+
+.footer-container{
+    background-color: #cccccc;
+    width: 1800px;
+    height: 40vh;
+
+}
+
+
+.email-section{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.email-text{
+    margin-top: 70px;
+}
+
+.email-section h4{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.email-section p{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.email-input{
+    margin-top: 5%;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 15px;
+    width: 20%;
+    height: 3vh;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+button{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    margin-top: 6%;
+    font-size: 20px;
+}
+
+button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* social-media */
+
+.social-media ion-icon{
+    cursor: pointer;
+}
+
+.social-media{
+    width: 100%;
+}
+
+/* links-section */
+
+.links-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.links-section h5{
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+
+}
+
+.links-section a{
+    color: black;
+    padding-top: 20px;
+}
+
+
+
+/* media queries */
+
+
+/* iPhone 6s, 7, 8 Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+/* iPhone 6+, 7+, 8+ Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+}
+
+/* iPhone 6+, 7+, 8+ Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+
+/* iPhone X Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+}
+
+/* iPhone X Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+}

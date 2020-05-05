@@ -1,0 +1,1806 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* container */
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+/* top-section */
+
+.top-section{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+/* hamburger menu */
+
+.logo-container ion-icon{
+    display: none;
+}
+
+
+/* mobile-menu */
+
+.mobile-menu{
+    display: none;
+}
+
+/* logo-container */
+
+.logo-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* navbar */ 
+
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+   
+}
+
+/* drop-down */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    padding: 12px 16px;
+    text-align: center;
+    position: relative;
+    right: 30%;
+}
+
+
+.dropdown-content a:hover{
+    font-weight: 900;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    
+}
+
+
+/* search */
+
+input{
+    margin-left: 45px;
+    font-size: 15px;
+    width: 50%;
+    height: 3vh;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+/* sign-in */
+
+.sign-in a{
+    color: black;
+}
+
+.sign-in a ion-icon{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+/* navbar right */
+
+.navbar-right{
+    display: flex;
+}
+
+.navbar-right ion-icon{
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* shopping cart */
+
+
+.shopping-cart a ion-icon{
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+}
+
+
+/* mid-section */
+
+.mid-section{
+    margin-top: 5%;
+}
+
+
+/* banner section */
+
+.banner-section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-section .image{
+    background: url('https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover cover;
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    filter: opacity(95%);
+}
+
+.mid-section .banner-section .image .banner-text{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 35%;
+}
+
+.mid-section .banner-section .image .banner-text h4{
+    font-size: 90px;
+    z-index: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.mid-section .banner-section .image .banner-text a{
+    color: white;
+    padding: 5px;
+    font-size: 35px;
+    font-weight: 900;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.mid-section .banner-section .image .banner-text a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+/* mid-grid section */
+
+.mid-grid-section{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+.mid-grid-section .men-section .image{
+    background: url('https://images.pexels.com/photos/3818489/pexels-photo-3818489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+    height: 700px;
+    width: 500px;
+}
+
+.mid-grid-section .men-section .image a{
+    text-decoration: none;
+}
+
+
+
+.mid-grid-section .women-section .image{
+    background: url('https://images.pexels.com/photos/3812800/pexels-photo-3812800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 700px;
+    width: 500px;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.mid-grid-section .women-section .image a{
+    text-decoration: none;
+}
+
+.mid-grid-section .lifestyle-section .image{
+    background: url('https://images.pexels.com/photos/916337/pexels-photo-916337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 600px;
+    width: 500px;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.mid-grid-section .lifestyle-section .image a{
+    text-decoration: none;
+
+}
+
+
+.mid-grid-section .sale-section .image{
+    background: url('https://images.pexels.com/photos/2519790/pexels-photo-2519790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 600px;
+    width: 500px;
+    background-position: right center;
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.mid-grid-section .sale-section .image a{
+text-decoration: none;
+}
+
+/* men-section */
+
+.men-section .image h5{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    letter-spacing: 2px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.men-section .image{
+    transition: all .4s ease-in-out;
+}
+
+
+.men-section .image:hover{
+    opacity: .8;
+}
+
+
+/* women-section */
+
+.women-section .image h5{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    letter-spacing: 2px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.women-section .image{
+    transition: all .4s ease-in-out;
+}
+
+.women-section .image:hover{
+    opacity: .8;
+
+}
+
+/* lifestyle-section */
+
+.lifestyle-section .image h5{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    letter-spacing: 2px;
+    width: 50%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.lifestyle-section .image{
+    transition: all .4s ease-in-out;
+}
+
+.lifestyle-section .image:hover{
+    opacity: .8;
+}
+
+/* sale-section */
+
+.sale-section .image h5{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    letter-spacing: 2px;
+    width: 50%;
+    margin: 0 auto;
+    z-index: 900;
+}
+
+
+.sale-section .image{
+    transition: all .4s ease-in-out;
+}
+
+.sale-section .image:hover{
+    opacity: .8;
+}
+
+
+/* popular section */
+
+.popular-section{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+.popular-section h1{
+    margin-top: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.popular-section .product1 .image1{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/45996170_004_b?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.popular-section .product1 h5{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.popular-section .product2 h5{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.popular-section .product3 h5{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.popular-section .product1 .image1:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/45996170_004_d?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.popular-section .product2 .image2{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/52863388_064_e?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.popular-section .product2 .image2 h5{
+    text-align: center;
+}
+
+.popular-section .product2 .image2:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/52863388_064_b?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+/* popular h1 */
+.most-popular{
+    border-bottom: 2px solid black;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.popular-section .product3 .image3{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/56265176_000_b?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.popular-section .product3 .image3 h5{
+    margin: 0 auto;
+}
+
+.popular-section .product3 .image3:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/56265176_000_e?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+/* exclusives section */
+
+.exclusive-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.exclusive-text{
+    border-bottom: 2px solid black;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.exclusive-section .product1 .image1{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55981468_000_b?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.exclusive-section .product1 .image1:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55981468_000_d?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+
+}
+
+.exclusive-section .product2 .image2{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55648349_002_b?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.exclusive-section .product2 .image2:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/55648349_002_d?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.exclusive-section .product3 .image3{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/52349420_010_b?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.exclusive-section .product3 .image3:hover{
+    background: url('https://s7d5.scene7.com/is/image/UrbanOutfitters/52349420_010_d?$xlarge$&hei=900&qlt=80&fit=constrain');
+    background-position: center center;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.exclusive-section .product1 h5{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.exclusive-section .product2 h5{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.exclusive-section .product3 h5{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* about-section */
+
+hr{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.about-section h5{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.about-section p{
+    width: 70%;
+    text-align: center;
+    color: grey;
+    margin: 0 auto;
+}
+
+/* footer-section */
+
+.footer-container{
+    background-color: #cccccc;
+    width: 1800px;
+    height: 30vh;
+
+}
+
+
+.email-section{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.email-section h4{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.email-section p{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.email-input{
+    margin-top: 5%;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 15px;
+    width: 30%;
+    height: 3vh;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+button{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* social-media */
+
+.social-media ion-icon{
+    cursor: pointer;
+}
+
+/* links-section */
+
+.links-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.links-section a{
+    color: black;
+}
+
+/* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+
+/* media queries */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+    .logo-container a{
+        display: none;
+    }
+
+      .navbar a{
+          display: none;
+      }
+
+       #navbar-search{
+          display: none;
+      }
+
+      .navbar-right ion-icon{
+          display: none;
+      }
+
+      .shopping-cart ion-icon{
+          display: none;
+      }
+
+      .logo-container ion-icon{
+        display: inline-block;
+        font-size: 50px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .mid-grid-section{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        
+    }
+
+    .popular-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .exclusive-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .about-section p{
+        width: 45%;
+        line-height: 25px;
+    }
+
+    .footer-container{
+        display: inline-block;
+        height: 80vh;
+        
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .links-section h5{
+        padding: 10px;
+        
+    }
+
+    .extras-section h5{
+        padding: 10px;
+    }
+
+    .quick-links h5{
+        padding: 10px;
+    }
+
+    input {
+        margin-left: 20%;
+        font-size: 15px;
+        width: 30%;
+        height: 4vh;
+        margin-top: 15px;
+        border: none;
+        border-bottom: 2px solid black;
+        outline: none;
+        background: transparent;
+        text-align: center;
+    }
+
+
+}
+
+/* iPhone 6, 6S, 7 and 8 Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        top: 25%;
+        position: absolute;
+        width: 70%;
+        height: 115vh;
+        transform: translate3d(70px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-450px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 35px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+    .email-input input{
+        margin-top: 5%;
+    }
+
+    .email-input{
+        text-align: center;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .footer-container{
+        width: 1350px;
+        height: 143vh;
+        margin-top: 10%;
+    }
+
+    .email-text{
+        margin-top: 5%;
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 15px;
+    width: 30%;
+    height: 5vh;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+}
+
+/* iPhone 6, 6S, 7 and 8 Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        z-index: 10;
+        top: 35%;
+        position: absolute;
+        width: 60%;
+        height: 205vh;
+        transform: translate3d(70px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-450px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 35px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+    .email-input input{
+        margin-top: 5%;
+    }
+
+    .email-input{
+        text-align: center;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .footer-container{
+        margin-top: 10%;
+        width: 1350px;
+        height: 244vh;
+    }
+
+    .email-text{
+        margin-top: 5%;
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 15px;
+    width: 30%;
+    height: 7vh;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        z-index: 10;
+        top: 35%;
+        position: absolute;
+        width: 60%;
+        height: 195vh;
+        transform: translate3d(70px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-450px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 35px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+    .email-input input{
+        margin-top: 5%;
+    }
+
+    .email-input{
+        text-align: center;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .footer-container{
+        width: 1350px;
+        height: 130vh;
+    }
+
+    .email-text{
+        margin-top: 5%;
+    }
+
+
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 15px;
+    width: 30%;
+    height: 7vh;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        z-index: 10;
+        top: 35%;
+        position: absolute;
+        width: 60%;
+        height: 195vh;
+        transform: translate3d(70px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-450px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 35px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+    .email-input input{
+        margin-top: 5%;
+    }
+
+    .email-input{
+        text-align: center;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .footer-container{
+        width: 1350px;
+        height: 120vh;
+    }
+
+    .email-text{
+        margin-top: 5%;
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 15px;
+    width: 30%;
+    height: 7vh;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* iPhone X Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        top: 15%;
+        position: absolute;
+        width: 80%;
+        height: 100vh;
+        transform: translate3d(0px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-450px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 35px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+    .email-input input{
+        margin-top: 5%;
+    }
+
+    .email-input{
+        text-align: center;
+    }
+
+    .links-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .footer-container{
+        width: 1350px;
+        height: 130vh;
+    }
+
+    .email-text{
+        margin-top: 5%;
+    }
+
+    .footer-container .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    .logo-container a{
+        display: none;
+    }
+
+      .navbar a{
+          display: none;
+      }
+
+       #navbar-search{
+          display: none;
+      }
+
+      .navbar-right ion-icon{
+          display: none;
+      }
+
+      .shopping-cart ion-icon{
+          display: none;
+      }
+
+    /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 15px;
+    width: 30%;
+    height: 5vh;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+}
+
+/* iPhone X Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .mobile-menu{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        top: 35%;
+        position: absolute;
+        width: 50%;
+        height: 205vh;
+        transform: translate3d(0px, 0, 0);
+        transition: all .5s ease-in-out;
+        -webkit-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    box-shadow: 16px 1px 9px 11px rgba(0,0,0,0.75);
+    border-radius: 5%;
+    background: #F3F2F5;
+    }
+
+    .mobile-menu.active{
+        transform: translate3d(-450px, 0, 0);
+    }
+
+    .mobile-menu h2{
+        cursor: pointer;
+        font-size: 45px;
+        letter-spacing: 1px;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 10%;
+        text-align: center;
+
+    }
+
+
+    .mobile-menu a{
+        color: black;
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 35px;
+        margin-top: 20px;
+        transition: all .4s ease-in-out;
+    }
+
+
+
+
+    .logo-container a{
+        display: none;
+    }
+
+      .navbar a{
+          display: none;
+      }
+
+       #navbar-search{
+          display: none;
+      }
+
+      .navbar-right ion-icon{
+          display: none;
+      }
+
+      .navbar-right input{
+        display: none;
+    }
+
+      .shopping-cart ion-icon{
+          display: none;
+      }
+
+      .logo-container ion-icon{
+        display: inline-block;
+        font-size: 50px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .email-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+       /* extras */
+.extras{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.extras-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* links */
+.link-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.links-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+/* extras */
+.help-text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.help-section{
+    margin: 30px;
+    font-size: 20px;
+}
+/* extras */
+.Find-Store-Text{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.Find-Store-section{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.social-media{
+    margin: 30px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 35%;
+    font-size: 15px;
+    width: 30%;
+    height: 7vh;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+.email-section p{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.links-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer-container {
+    background-color: #cccccc;
+    width: 1350px;
+    height: 220vh;
+
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
