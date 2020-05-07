@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="login.css" rel="stylesheet">
     <title>www.NeWave.com</title>
+    <script>
+            // log in 
+
+        const email = document.getElementsByClassName('email');
+        const password = document.getElementsByClassName('.password');
+        const logInButton = document.getElementsByClassName('log-in')
+
+        logInButton.addEventListener('click', function(){
+            console.log('clicked!')
+        })
+
+        //add to cart
+
+        const addToCart = document.getElementsByClassName('.add-to-cart');
+
+        const addedToCart = function(){
+            console.log('added to cart')
+        }
+
+        addToCart.addEventListener('click', addedToCart);
+</script>
 </head>
 <body>
     <div class="container">
@@ -72,11 +93,13 @@
         <div class="outer-square">
             <div class="inner-square">
                 <h4 class="signIn">Sign In</h4>
-                <div class="user-info">
-                    <input class="email" placeholder="Email">
-                    <input class="password" placeholder="Password">
-                </div>
-                <button class="sign-in">Sign In</button>
+                <form id="log-in">
+                    <div class="user-info">
+                        <input class="email" placeholder="Email">
+                        <input class="password" placeholder="Password">
+                    </div>
+                    <button class="sign-in">Sign In</button>
+                </form>
             </div>
         </div>
     </div>
@@ -125,7 +148,6 @@
             </div>
         </div>
     </div>
-    <script src="app.js"></script>
     <script src="main.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     </body>
